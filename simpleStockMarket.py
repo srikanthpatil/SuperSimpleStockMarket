@@ -30,14 +30,11 @@ class Trade:
 
 class StockMarket:
     trades = []
-    market_data = []
-
-    def __init__(self):
-        self.market_data = [Stock('TEA', 'Common', 0, 0, 100),
-                            Stock('POP', 'Common', 8, 0, 100),
-                            Stock('ALE', 'Common', 23, 0, 60),
-                            Stock('GIN', 'Preferred', 8, 2, 100),
-                            Stock('JOE', 'Common', 13, 0, 250)]
+    market_data = [Stock('TEA', 'Common', 0, 0, 100),
+                   Stock('POP', 'Common', 8, 0, 100),
+                   Stock('ALE', 'Common', 23, 0, 60),
+                   Stock('GIN', 'Preferred', 8, 2, 100),
+                   Stock('JOE', 'Common', 13, 0, 250)]
 
     def check_stock_validity(self, symbol):
         stock = None
