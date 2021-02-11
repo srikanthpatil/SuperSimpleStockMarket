@@ -30,6 +30,7 @@ class Trade:
 
 class StockMarket:
     trades = []
+    market_data = []
 
     def __init__(self):
         self.market_data = [Stock('TEA', 'Common', 0, 0, 100),
